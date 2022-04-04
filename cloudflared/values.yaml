@@ -53,8 +53,8 @@ affinity:
             operator: In
             values:
             - cloudflared
-          - key: app.kubernetes.io/instance
-            operator: In
-            values:
-            - blah
+#          - key: app.kubernetes.io/instance
+#            operator: In
+#            values:
+#            - blah
       topologyKey: "kubernetes.io/hostname"
