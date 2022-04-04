@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  cloudflared:
+  - apiVersion: v2
+    appVersion: 2022.3.4
+    created: "2022-04-04T12:01:07.107585105+02:00"
+    description: cloudflared deployment
+    digest: a2f8691ae5164dbae168deb07b2bbf465542d0a82aadb5b140be524a1ac02ffd
+    name: cloudflared
+    type: application
+    urls:
+    - https://github.com/shift/helm-charts/releases/download/cloudflared-2022.3.4/cloudflared-2022.3.4.tgz
+    version: 2022.3.4
+generated: "2022-04-04T12:01:07.107589239+02:00"
