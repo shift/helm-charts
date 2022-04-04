@@ -1,0 +1,6 @@
+apiVersion: v2
+name: cloudflared
+description: cloudflared deployment
+type: application
+version: 2022.3.4
+appVersion: "2022.3.4"
