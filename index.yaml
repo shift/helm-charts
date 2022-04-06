@@ -13,6 +13,16 @@ entries:
     version: 2022.3.4
   - apiVersion: v2
     appVersion: 2022.3.4
+    created: "2022-04-06T15:49:51.377280484Z"
+    description: cloudflared deployment
+    digest: f4c652879e8bba8888f336bc3c3a98397e2523b685f5868d9d1aa61d35258734
+    name: cloudflared
+    type: application
+    urls:
+    - https://github.com/shift/helm-charts/releases/download/cloudflared-2022.3.4-3/cloudflared-2022.3.4-3.tgz
+    version: 2022.3.4-3
+  - apiVersion: v2
+    appVersion: 2022.3.4
     created: "2022-04-06T17:30:15.850118584+02:00"
     description: cloudflared deployment
     digest: 156e4ee1ebf60f6b3c12099d5b87a5783d518938ee61bbca794acb5631aaa299
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://github.com/shift/helm-charts/releases/download/cloudflared-2022.3.4-2/cloudflared-2022.3.4-2.tgz
     version: 2022.3.4-2
-generated: "2022-04-06T17:30:16.007673113+02:00"
+generated: "2022-04-06T15:49:51.377299384Z"
