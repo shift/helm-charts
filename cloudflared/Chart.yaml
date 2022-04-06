@@ -2,5 +2,13 @@ apiVersion: v2
 name: cloudflared
 description: cloudflared deployment
 type: application
-version: "2022.3.4-3"
+version: "2022.3.4-4"
 appVersion: "2022.3.4"
+keywords:
+  - tunnel
+  - cloudflare
+home: https://github.com/shift/helm-charts/cloudflared
+maintainers:
+  - name: Vincent Palmer
+    email: shift@someone.section.me
+    url: https://github.com/shift/
