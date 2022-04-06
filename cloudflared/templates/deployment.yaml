@@ -37,7 +37,9 @@ spec:
             - "--metrics=0.0.0.0:38732"
             - "--no-autoupdate"
             - "run"
-            - "--token={{ .Values.token }}"
+          env:
+            - name: TUNNEL_TOKEN
+            - value: "{{ .Values.token }}"
           ports:
             - name: metrics
               containerPort: 38732
