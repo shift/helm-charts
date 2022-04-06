@@ -39,7 +39,11 @@ spec:
             - "run"
           env:
             - name: TUNNEL_TOKEN
-              value: "{{ .Values.token }}"
+              valueFrom:
+                secretKeyRef:
+                  name: "{{ .Values.token_secret }}"
+                  key: token
+                  optional: false
           ports:
             - name: metrics
               containerPort: 38732

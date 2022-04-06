@@ -1,5 +1,5 @@
 replicaCount: 2
-token: ""
+token_secret: ""
 image:
   repository:  quay.io/giantswarm/cloudflared
   pullPolicy: IfNotPresent
