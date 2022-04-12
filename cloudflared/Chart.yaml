@@ -1,8 +1,8 @@
 apiVersion: v2
 name: cloudflared
-description: cloudflared deployment
+description: "`cloudflared tunnel run` deployment"
 type: application
-version: "2022.3.4-4"
+version: "2022.3.4-build5"
 appVersion: "2022.3.4"
 keywords:
   - tunnel
