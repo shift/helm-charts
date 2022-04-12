@@ -31,5 +31,5 @@ jobs:
           charts_dir: .
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-          PGP_SIGNING_KEY: "${{ secrets.PGP_SIGNING_KEY }}"
-          PGP_KEY_NAME: "${{ secrets.PGP_KEY_NAME }}"
+          PGP_SIGNING_KEY: "${{ secrets.GPG_SIGNING_KEY }}"
+          PGP_KEY_NAME: "${{ secrets.GPG_KEY_NAME }}"
