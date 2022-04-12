@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - trunk
+      - feature-signed-charts
 
 jobs:
   release:
