@@ -13,6 +13,24 @@ entries:
     version: 2022.3.4
   - apiVersion: v2
     appVersion: 2022.3.4
+    created: "2022-05-02T18:29:00.596406555Z"
+    description: cloudflared deployment
+    digest: 1295939cf582157bb23d2136ffaf94498e5bbc5940aa8e3d787201a278e1ca3a
+    home: https://github.com/shift/helm-charts/cloudflared
+    keywords:
+    - tunnel
+    - cloudflare
+    maintainers:
+    - email: shift@someone.section.me
+      name: Vincent Palmer
+      url: https://github.com/shift/
+    name: cloudflared
+    type: application
+    urls:
+    - https://github.com/shift/helm-charts/releases/download/cloudflared-2022.3.4-5/cloudflared-2022.3.4-5.tgz
+    version: 2022.3.4-5
+  - apiVersion: v2
+    appVersion: 2022.3.4
     created: "2022-04-06T20:46:57.061284645Z"
     description: cloudflared deployment
     digest: 1f56fc161f42db4d7fe93cdd28c0b95c5e4c16ef373be47d3adb39fe547df2a4
@@ -49,4 +67,4 @@ entries:
     urls:
     - https://github.com/shift/helm-charts/releases/download/cloudflared-2022.3.4-2/cloudflared-2022.3.4-2.tgz
     version: 2022.3.4-2
-generated: "2022-04-06T20:46:57.061302444Z"
+generated: "2022-05-02T18:29:00.596430556Z"
