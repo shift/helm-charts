@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "influxdb_exporter.fullname" . }}
+  labels:
+    {{- include "influxdb_exporter.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: metrics
+      protocol: TCP
+      name: metrics
+    - port: {{ .Values.service.port }}
+      targetPort: influxdb
+      protocol: UDP
+      name: influxdb
+  selector:
+    {{- include "influxdb_exporter.selectorLabels" . | nindent 4 }}
