@@ -13,6 +13,24 @@ entries:
     version: 2022.3.4
   - apiVersion: v2
     appVersion: 2022.3.4
+    created: "2022-10-14T08:29:12.692042596Z"
+    description: cloudflared deployment
+    digest: d929c1d6168e23a60cbbab3243ac6171e86e4a57ef739bc6671169b50b375d87
+    home: https://github.com/shift/helm-charts/cloudflared
+    keywords:
+    - tunnel
+    - cloudflare
+    maintainers:
+    - email: shift@someone.section.me
+      name: Vincent Palmer
+      url: https://github.com/shift/
+    name: cloudflared
+    type: application
+    urls:
+    - https://github.com/shift/helm-charts/releases/download/cloudflared-2022.3.4-6/cloudflared-2022.3.4-6.tgz
+    version: 2022.3.4-6
+  - apiVersion: v2
+    appVersion: 2022.3.4
     created: "2022-05-02T18:29:00.596406555Z"
     description: cloudflared deployment
     digest: 1295939cf582157bb23d2136ffaf94498e5bbc5940aa8e3d787201a278e1ca3a
@@ -67,4 +85,15 @@ entries:
     urls:
     - https://github.com/shift/helm-charts/releases/download/cloudflared-2022.3.4-2/cloudflared-2022.3.4-2.tgz
     version: 2022.3.4-2
-generated: "2022-05-02T18:29:00.596430556Z"
+  influxdb_exporter:
+  - apiVersion: v2
+    appVersion: 0.10.0
+    created: "2022-10-14T08:29:13.00929101Z"
+    description: Basic chart to deploy the influxdb_exporter to help people migrate.
+    digest: e8b2be0fa8a93d4b2c6fe38c3c169df1438b8bc5f41c3dc0869d8e30ad8bd29f
+    name: influxdb_exporter
+    type: application
+    urls:
+    - https://github.com/shift/helm-charts/releases/download/influxdb_exporter-0.0.1/influxdb_exporter-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-10-14T08:29:13.00932121Z"
