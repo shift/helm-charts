@@ -2,5 +2,5 @@ apiVersion: v2
 name: influxdb_exporter
 description: Basic chart to deploy the influxdb_exporter to help people migrate.
 type: application
-version: 0.0.1
+version: 0.0.2
 appVersion: "v0.10.0"
