@@ -87,6 +87,16 @@ entries:
     version: 2022.3.4-2
   influxdb_exporter:
   - apiVersion: v2
+    appVersion: v0.10.0
+    created: "2022-10-17T07:30:27.100493319Z"
+    description: Basic chart to deploy the influxdb_exporter to help people migrate.
+    digest: 11d9050abb22872ae9198708465bf4db6f6461e8b2acfa255c0bb9a77e3695d3
+    name: influxdb_exporter
+    type: application
+    urls:
+    - https://github.com/shift/helm-charts/releases/download/influxdb_exporter-0.0.2/influxdb_exporter-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
     appVersion: 0.10.0
     created: "2022-10-14T08:29:13.00929101Z"
     description: Basic chart to deploy the influxdb_exporter to help people migrate.
@@ -96,4 +106,4 @@ entries:
     urls:
     - https://github.com/shift/helm-charts/releases/download/influxdb_exporter-0.0.1/influxdb_exporter-0.0.1.tgz
     version: 0.0.1
-generated: "2022-10-14T08:29:13.00932121Z"
+generated: "2022-10-17T07:30:27.100519719Z"
